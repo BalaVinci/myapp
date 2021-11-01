@@ -9,6 +9,7 @@ export class LeftComponent implements OnInit {
 
   constructor() { }
 
+    title:string='Left Side ';
   ngOnInit(): void {
   }
 
