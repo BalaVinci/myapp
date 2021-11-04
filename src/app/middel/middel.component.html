@@ -1,1 +1,9 @@
-<p>middel works!</p>
+<h4>MiddleComponent</h4>
+
+<input class="form-control" [(ngModel)]="twoway" type="text"/>
+<p>Status : {{status}}</p>
+<h2>Two way Binding : {{twoway}}</h2>
+
+<p *ngIf="btntoggle"> Hey i am hide</p>
+
+<button type="button" class="btn btn-primary" [disabled]='btntoggle' (click)='ontoggle()'>Toggle</button>

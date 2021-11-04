@@ -3,15 +3,26 @@ h3 {
     color: rgb(145, 11, 11);
     font-weight: bold;
 }
-.title {
+ 
+.columnPan {
+    height:5vh; 
+    border-color: rgb(212, 97, 20); 
+    border-style: solid;   
     text-align: center;
     vertical-align: bottom;
-    background-color:lightskyblue;
-    height: 40px;
-    padding-top: 5px;
+  
+    color: lightyellow;
+    background-color:lightsalmon;
 }
-.columnPan {
-    height:80vh; 
-    border-color: lightslategray; 
-    border-style: solid;   
+h4{
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 10px;
+    
+}
+
+.commanborder{
+    height: 90vh;
+    border-color: indianred;
+    border-style: solid;
 }

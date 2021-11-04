@@ -1,0 +1,20 @@
+ng serve   -- to start app
+ng g c  foldername/componenetname
+
+
+
+
+
+Steps:
+1. Upload/Commit to Github: (in vscode terminal)
+git init
+git add .
+git commit -m "my first commit"
+git branch -M main
+git remote add origin  
+git push -u origin main
+
+2. Build: (in vscode terminal)
+npm install -g angular-cli-ghpages
+ng build --prod --base-href "https://balavinci.github.io/myapp/"
+ngh --dir dist/myapp

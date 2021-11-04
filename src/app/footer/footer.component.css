@@ -1,0 +1,8 @@
+footer {
+    clear: both;
+    position: relative;
+    height: 50px; 
+}
+footer div p {
+    color: ivory;
+}
