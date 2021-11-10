@@ -1,3 +1,4 @@
+import { MathsService } from './../services/maths.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _maths:MathsService) { }
 
     title:string='Left Side ';
   ngOnInit(): void {

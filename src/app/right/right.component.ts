@@ -1,13 +1,15 @@
+import { MathsService } from './../services/maths.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-right',
   templateUrl: './right.component.html',
-  styleUrls: ['./right.component.css']
+  styleUrls: ['./right.component.css'],
+  providers:[MathsService]
 }) 
 export class RightComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _maths:MathsService) { }
   books_null=null;
   books:any =[
     {
@@ -29,6 +31,11 @@ export class RightComponent implements OnInit {
   ];
 
   ngOnInit(): void {
+  }
+
+  increase()
+  {
+    this._maths.add();
   }
 
 }

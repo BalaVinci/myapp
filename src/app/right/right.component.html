@@ -1,5 +1,5 @@
  <h4>Right Component</h4>
-
+ <h5>{{_maths.Counter}}</h5>
  <div *ngIf="books_null">TT</div>
 
  <ng-component #nobooksstatus>
@@ -9,3 +9,5 @@
  <ng-component #no>
     Hey Books Not avaialble
    </ng-component>
+
+   <button class="btn btn-warning" (click)="increase()">Increase</button>

@@ -1,3 +1,4 @@
+import { MathsService } from './../services/maths.service';
 import { Component, OnInit } from '@angular/core';
  
 
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiddelComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _maths:MathsService) { }
    
   Id:number=10;
   status:string='Available';
@@ -30,5 +31,7 @@ export class MiddelComponent implements OnInit {
     }else{
       this.status='Available';
     }
+
+    this._maths.add();
   }
 }

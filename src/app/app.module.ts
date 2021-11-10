@@ -10,6 +10,9 @@ import { MiddelComponent } from './middel/middel.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { CommonComponent } from './comman/common/common.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { CommonComponent } from './comman/common/common.component';
     MiddelComponent,
     FooterComponent,
     MenuComponent,
-    CommonComponent
+    CommonComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
